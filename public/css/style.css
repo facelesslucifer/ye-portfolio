@@ -53,6 +53,7 @@ footer.page-footer {
 ul.ul-bullet > li {
     font-size: 14px;
     margin-left: 10px;
+    line-height: 35px;
     list-style-type: circle !important;
     list-style-position:inside;
  }
@@ -189,8 +190,10 @@ Alert
 
 .alert-success {
     color: #468847;
+    height: 75px;
     background-color: #dff0d8;
     border-color: #d6e9c6;
+
 }
 
 .alert-danger, .alert-error {

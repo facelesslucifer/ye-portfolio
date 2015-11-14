@@ -3,7 +3,7 @@
         @foreach (['danger', 'warning', 'success', 'info'] as $msg)
             @if(Session::has('alert-' . $msg))
                 <div class="alert alert-{{ $msg }} z-depth-1">
-                    <div class="alert-message">{{ Session::get('alert-' . $msg) }}</div>
+                    <div class="alert-message">{!! Session::get('alert-' . $msg) !!}</div>
                     <div class="right-align"><i class="fa fa-times alert-close"></i></div>
                 </div>
             @endif
