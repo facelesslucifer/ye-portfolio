@@ -27,7 +27,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col m8 s12">
                         <div class="row">
                             {!! Form::open(array('url' => '/contact/submit', 'method'=> 'post', 'class' => 'col s12')) !!}
@@ -66,6 +65,9 @@
                                                 'class'=>'materialize-textarea')) !!}
                                         {!! Form::label('message', 'Message', array('class' => 'materialize-textarea')) !!}
                                     </div>
+                                </div>
+                                <div class="row">
+                                    <div class="g-recaptcha" data-sitekey="6LfO-BATAAAAANT8mIx0D-3i_P2bHTdR0FMwUho5"></div>
                                 </div>
                                 <div class="row">
                                     <button class="btn waves-effect waves-light indigo-darken-4" type="submit" name="action">Submit

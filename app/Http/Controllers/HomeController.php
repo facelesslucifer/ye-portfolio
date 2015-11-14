@@ -18,12 +18,18 @@ class HomeController extends Controller
 
     public function submit(Request $request)
     {
+        $messages = [
+            'required' => 'The :attribute field is required.',
+            'g-recaptcha-response.required' => 'Please select the reCAPTCHA.',
+        ];
+
         $validator = Validator::make($request->all(), [
             'name' => 'required|max:255',
             'email' => 'required|email|max:255',
             'subject' => 'required|max:255',
-            'message' => 'required'
-        ]);
+            'message' => 'required',
+            'g-recaptcha-response' => 'required',
+        ], $messages);
 
         if ($validator->fails()) {
             return redirect()
@@ -39,15 +45,11 @@ class HomeController extends Controller
         );
 
         Mail::send('emails.welcome', $data, function ($message) use ($request) {
-
             $message->from($request->email, 'Portfolio Website');
-
             $message->to('yelinhtun1987@gmail.com')->subject($request->subject);
-
         });
 
         $request->session()->flash('alert-success', 'Thank you!<br />Your message has been successfully sent. I will contact you very soon!!');
         return redirect()->back();
-
     }
 }

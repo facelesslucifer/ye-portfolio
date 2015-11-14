@@ -28,5 +28,8 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
 <script src="{!! asset('/js/init.min.js') !!}"></script>
 
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
 </body>
 </html>
