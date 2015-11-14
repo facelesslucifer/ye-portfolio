@@ -149,6 +149,11 @@ a:hover {
     -webkit-font-smoothing: antialiased;
 }
 
+.g-recaptcha {
+    transform:scale(0.77);
+    transform-origin:0 0;
+}
+
 @media (max-width: 623px) {
     html {
         font-size: 12px;

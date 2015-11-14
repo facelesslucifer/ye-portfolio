@@ -67,7 +67,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="g-recaptcha" data-sitekey="6LfO-BATAAAAANT8mIx0D-3i_P2bHTdR0FMwUho5"></div>
+                                    <div class="input-field col s12 g-recaptcha" data-sitekey="6LfO-BATAAAAANT8mIx0D-3i_P2bHTdR0FMwUho5"></div>
                                 </div>
                                 <div class="row">
                                     <button class="btn waves-effect waves-light indigo-darken-4" type="submit" name="action">Submit
