@@ -30,9 +30,6 @@
         $('.alert').hide('slow', function(){ $('.alert').remove(); });
     });
 
-    TweenMax.staggerFrom(".box", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
-
-
     // Cache selectors
     var topMenu = $("#top-menu"),
         topMenuHeight = topMenu.outerHeight() + 100,

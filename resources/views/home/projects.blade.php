@@ -1,4 +1,4 @@
-<div class="row box" id="projects">
+<div class="row" id="projects">
     <div class="col s12">
         <div class="card indigo-lighten-5 z-depth-1">
             <div class="card-content">

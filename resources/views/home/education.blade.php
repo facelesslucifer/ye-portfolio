@@ -1,4 +1,4 @@
-<div class="row box" id="education">
+<div class="row" id="education">
     <div class="col s12">
         <div class="card indigo-lighten-5 z-depth-1">
             <div class="card-content">
@@ -6,10 +6,12 @@
                 <div class="card-row">
                     <div class="card-company">
                         National University of Singapore, ISS
-                        <span class="card-year">2011 - 2012</span>
                     </div>
-                    <div class="right-align cust-font">
-                        Systems Analysis
+                    <div class="contect-list">
+                        <i class="fa fa-graduation-cap prefix material-icons-cust"></i>
+                        <div>
+                            <div class="cust-font">Systems Analysis</div>2011 - 2012
+                        </div>
                     </div>
                     <div class="contect-list">
                         <i class="material-icons prefix">location_on</i>
@@ -36,10 +38,12 @@
                 <div class="card-row">
                     <div class="card-company">
                         University of Computer Studies, Yangon
-                        <span class="card-year">2003 - 2007</span>
                     </div>
-                    <div class="right-align cust-font">
-                        Computer Science
+                    <div class="contect-list">
+                        <i class="fa fa-graduation-cap prefix material-icons-cust"></i>
+                        <div>
+                            <div class="cust-font">Computer Science</div>2003 - 2007
+                        </div>
                     </div>
                     <div class="contect-list">
                         <i class="material-icons prefix">location_on</i>

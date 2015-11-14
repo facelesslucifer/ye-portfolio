@@ -1,4 +1,4 @@
-<div class="row box" id="contact">
+<div class="row" id="contact">
     <div class="col s12">
         <div class="card indigo-lighten-5 z-depth-1">
             <div class="card-content">
@@ -32,7 +32,7 @@
                         <div class="row">
                             {!! Form::open(array('url' => '/contact/submit', 'method'=> 'post', 'class' => 'col s12')) !!}
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12">
                                         <i class="material-icons prefix">account_circle</i>
                                         {!! Form::text('name', null,
                                             array('required',
@@ -41,7 +41,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12">
                                         <i class="material-icons prefix">email</i>
                                         {!! Form::email('email', null,
                                             array('required',
@@ -50,7 +50,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12">
                                         <i class="material-icons prefix">subject</i>
                                         {!! Form::text('subject', null,
                                             array('required',
@@ -59,7 +59,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12">
                                         <i class="material-icons prefix">message</i>
                                         {!! Form::textarea('message', null,
                                             array('required',

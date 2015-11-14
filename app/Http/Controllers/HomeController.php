@@ -38,13 +38,13 @@ class HomeController extends Controller
             'messageText' => $request->message
         );
 
-        // Mail::send('emails.welcome', $data, function ($message) use ($request) {
+        Mail::send('emails.welcome', $data, function ($message) use ($request) {
 
-        //     $message->from($request->email, 'Portfolio Website');
+            $message->from($request->email, 'Portfolio Website');
 
-        //     $message->to('yelinhtun1987@gmail.com')->subject($request->subject);
+            $message->to('yelinhtun1987@gmail.com')->subject($request->subject);
 
-        // });
+        });
 
         $request->session()->flash('alert-success', 'Thank you!<br />Your message has been successfully sent. I will contact you very soon!!');
         return redirect()->back();

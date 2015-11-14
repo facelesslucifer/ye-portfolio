@@ -32,21 +32,21 @@
 
 
 {{-- Fixed Action Button --}}
-<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+<div class="fixed-action-btn click-to-toggle" style="bottom: 45px; right: 24px;">
     <a class="btn-floating btn-large red">
         <i class="large material-icons">view_headline</i>
     </a>
     <ul>
         <li>
             <a class="btn tooltipped btn-floating green nav-link"
-                data-position="left" data-delay="1" data-tooltip="Go to Top"
+                data-position="left" data-delay="500" data-tooltip="Go to Top"
                 data-id="profile">
                 <i class="fa fa-arrow-up"></i>
             </a>
         </li>
         <li>
             <a class="btn tooltipped btn-floating yellow darken-1 nav-link"
-                data-position="left" data-delay="1" data-tooltip="Contact"
+                data-position="left" data-delay="500" data-tooltip="Contact"
                 data-id="contact">
                 <i class="material-icons">format_quote</i>
             </a>
@@ -54,11 +54,13 @@
         <li>
             <a class="btn tooltipped btn-floating blue"
                 href="https://app.box.com/s/n70jpqyp65ynszs0ey7m3cqcngzi1wwn"
-                data-position="left" data-delay="1" data-tooltip="Download CV"
+                data-position="left" data-delay="500" data-tooltip="Download CV"
                 target="_blank">
                 <i class="fa fa-download"></i>
             </a>
         </li>
     </ul>
 </div>
+
+
 </div>
