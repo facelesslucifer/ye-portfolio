@@ -154,6 +154,10 @@ a:hover {
     transform-origin:0 0;
 }
 
+.fixed-action-btn {
+    bottom: 45px; right: 24px;
+}
+
 @media (max-width: 623px) {
     html {
         font-size: 12px;

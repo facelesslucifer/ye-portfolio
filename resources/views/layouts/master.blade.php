@@ -3,6 +3,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="title" content="Ye Lin Htun">
+    <meta name="description" content="Ye Lin Htun portfolio website">
+    <meta name="keywords" content="software,web,portfolio,backend,api">
+
     <link rel="shortcut icon" href="{{ asset('/images/favicon.ico') }}">
     <title> @yield('title') </title>
 

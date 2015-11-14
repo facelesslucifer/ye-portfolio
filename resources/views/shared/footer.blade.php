@@ -32,7 +32,7 @@
 
 
 {{-- Fixed Action Button --}}
-<div class="fixed-action-btn click-to-toggle" style="bottom: 45px; right: 24px;">
+<div class="fixed-action-btn click-to-toggle">
     <a class="btn-floating btn-large red">
         <i class="large material-icons">view_headline</i>
     </a>
