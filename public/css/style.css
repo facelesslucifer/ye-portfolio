@@ -1,0 +1,215 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files
+ */
+
+.indigo-darken-4 {
+    background-color: #1E2749 !important;
+}
+
+.indigo-lighten-5 {
+    background-color: #F2F9FF !important;
+}
+
+a, .cust-font{
+    color: #335C81;
+}
+
+li.active {
+    background-color: #2D3A6B !important;
+}
+
+#main-body {
+    background-color: #FAFAFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer.page-footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.mdi-navigation-menu:before {
+    color: white;
+    margin-left: 20px;
+}
+
+.prefix {
+    float: left;
+    margin-right: 15px;
+}
+
+.contect-list {
+    margin-top: 20px;
+}
+
+.card-year {
+    float: right;
+}
+
+.card-company {
+    font-size: 1.4em;
+}
+
+ul.ul-bullet > li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle !important;
+    list-style-position:inside;
+ }
+
+.profile-p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+ .skill-logo {
+    max-height: 60px;
+    min-width: 60px;
+ }
+
+ .skill-text {
+    bottom: 0px;
+ }
+
+.img-wrap {
+    min-height: 120px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skill-text {
+    width: 120px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    color: #757575!important;
+    bottom: 0px;
+    position: absolute;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.follow_us i {
+    font-size: 68px;
+    width: 77px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    background: transparent;
+    opacity: 0.2;
+    color: #fff;
+}
+
+.follow_us i:hover {
+    opacity: 1 ;
+}
+
+.collection {
+    border: none;
+}
+
+.fa-custom {
+    font-size: 12px !important;
+    color: #335C81;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.project-row {
+    margin-bottom: 15px;
+}
+
+a:hover {
+    color: #F44336;
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 12px;
+    }
+
+    .card-company {
+        font-size: 12px !important;
+    }
+
+    .card-project {
+     font-size: 12px !important;
+    }
+
+    .fa-custom {
+        font-size: 7px !important;
+        color: #335C81;
+        float: left;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .skill-text {
+        width: 90px;
+    }
+}
+
+/*
+Alert
+ */
+
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #c09853;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.alert-heading {
+    color: inherit;
+}
+
+.alert .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 18px;
+}
+
+.alert-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger, .alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    cursor: pointer;
+}
+
+.alert-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-close {
+    cursor: pointer;
+}
+
+.alert-message {
+    float: left;
+}
