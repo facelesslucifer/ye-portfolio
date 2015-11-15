@@ -1,5 +1,17 @@
 (function($){
   $(function(){
+
+    var config = {
+        enter: 'left',
+        move: '100px',
+        vFactor: 0.4,
+        reset:  true,
+        mobile: false,
+        delay:  'onload'
+      }
+
+    window.sr = new scrollReveal( config );
+
     // Show sideNav
     $('.button-collapse').sideNav({
         closeOnClick: true
